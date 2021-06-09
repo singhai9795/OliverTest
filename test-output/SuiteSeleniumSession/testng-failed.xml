@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteSeleniumSession]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SeleniumSession(failed)">
+    <classes>
+      <class name="com.pos.testcases.SiteSelectionTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="clickOnSiteLink"/>
+        </methods>
+      </class> <!-- com.pos.testcases.SiteSelectionTest -->
+    </classes>
+  </test> <!-- SeleniumSession(failed) -->
+</suite> <!-- Failed suite [SuiteSeleniumSession] -->

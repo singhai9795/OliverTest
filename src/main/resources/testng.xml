@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SuiteSeleniumSession" verbose="1" >
+ 
+  <test name="SeleniumSession">
+    <classes>
+      <class name="com.pos.testcases.LoginPageTest"/>
+      <class name="com.pos.testcases.SiteSelectionTest"/>
+    </classes>
+  </test>
+  
+</suite>
